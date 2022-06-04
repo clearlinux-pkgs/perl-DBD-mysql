@@ -4,7 +4,7 @@
 #
 Name     : perl-DBD-mysql
 Version  : 4.050
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/D/DV/DVEEDEN/DBD-mysql-4.050.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DV/DVEEDEN/DBD-mysql-4.050.tar.gz
 Summary  : 'A MySQL driver for the Perl5 Database Interface (DBI)'
@@ -96,8 +96,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Bundle/DBD/mysql.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/DBD/mysql.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/DBD/mysql/GetInfo.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/DBD/mysql/INSTALL.pod
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.so
+/usr/lib/perl5/*
